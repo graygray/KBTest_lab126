@@ -1,0 +1,74 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <EditTextPreference
+        android:capitalize="words"
+        android:defaultValue="@string/s_pref_set_reportrate"
+        android:inputType="number"
+        android:key="pref_set_reportrate"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/s_pref_title_set_reportrate" />
+    
+    <EditTextPreference
+        android:capitalize="words"
+        android:defaultValue="@string/s_pref_set_reportrate_range"
+        android:inputType="number"
+        android:key="pref_set_reportrate_range"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/s_pref_title_set_reportrate_range" />
+    
+	<EditTextPreference
+        android:capitalize="words"
+        android:defaultValue="@string/s_pref_set_reportrate_hold_seconds"
+        android:inputType="number"
+        android:key="pref_set_reportrate_hold_seconds"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/s_pref_title_set_reportrate_hold_seconds" />
+    
+	<ListPreference
+        android:defaultValue="US"
+        android:entries="@array/pref_layout_language"
+        android:entryValues="@array/pref_layout_language_values"
+        android:key="pref_layout_language"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/pref_title_set_layout_language" />
+    
+    <!-- <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="example_checkbox"
+        android:summary="@string/pref_description_social_recommendations"
+        android:title="@string/pref_title_social_recommendations" />
+
+    NOTE: EditTextPreference accepts EditText attributes.
+    NOTE: EditTextPreference's summary should be set to its value by the activity code.
+    <EditTextPreference
+        android:capitalize="words"
+        android:defaultValue="@string/pref_default_display_name"
+        android:inputType="textCapWords"
+        android:key="example_text"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_display_name" />
+
+    
+         NOTE: Hide buttons to simplify the UI. Users can touch outside the dialog to
+         dismiss it.
+   
+    NOTE: ListPreference's summary should be set to its value by the activity code.
+    <ListPreference
+        android:defaultValue="-1"
+        android:entries="@array/pref_example_list_titles"
+        android:entryValues="@array/pref_example_list_values"
+        android:key="example_list"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/pref_title_add_friends_to_messages" /> -->
+
+</PreferenceScreen>
